@@ -8,4 +8,7 @@ interface GithubApiService {
 
     @GET("/users")
     fun getUsers(): Single<List<GithubUserModel>>
+
+
+
 }
