@@ -9,4 +9,6 @@ class GithubUsersRepository(private val githubApiService: GithubApiService) : IG
     override fun getUsers(): Single<List<GithubUserModel>> {
         return githubApiService.getUsers()
     }
+
+
 }
